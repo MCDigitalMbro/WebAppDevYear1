@@ -34,7 +34,7 @@ if (!$conn)
 <link rel="stylesheet" type="text/css" href="css/css.css">
 </head>
 <body>
-
+	<h1>Hello</h1>
 <h1>Admin Control</h1>
 <a href="statscounter.php">View Stats</a>
 <br /><br />
