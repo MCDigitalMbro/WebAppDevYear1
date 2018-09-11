@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>Report Fault</title>
+<link rel="stylesheet" type="text/css" href="css/css.css">
+</head>
+<body>
+<h1>Report Fault</h1>
+	<form name="details" action="reportFault.php" method="post">
+		<input type="hidden" name="user_edited" value="1" />
+		<p>Fault Title</p>
+		<input type="text" name="FaultTitle"/>
+		<p>Fault Location</p>
+		<input type="text" name="FaultLocation"/>
+		<p>Fault Description</p>
+		<input type="text" name="FaultDescription"/>
+		
+		<input type="hidden" name="FaultTechnician" value ="Unassigned"/>
+		
+		<input type="hidden" name="FaultStatus" value="Unresolved"/>
+		<br /><br />
+		<input type="submit" value="Report Fault"/>
+	</form>
+	<a href="home.php">Back</a>
+</body>
+</html>
